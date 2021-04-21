@@ -1,0 +1,51 @@
+body {
+    background-color: dimgray;
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', Arial, 'Times New Roman', serif;
+}
+
+
+header p:first-of-type::first-letter {
+    font-size: 26px;
+}
+
+h1, h2 {
+    color: white;
+}
+
+span.characters {
+    color: yellow;
+}
+
+a {
+    color: Red;
+    text-decoration: none;
+}
+
+dt {
+    color: yellow;
+}
+
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+section.movie p.details {
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+.mood > img {
+    height: 250px;
+}
+
+#hov {
+    display: none;
+}
+
+a#link:hover + #hov {
+    display: block;
+}
