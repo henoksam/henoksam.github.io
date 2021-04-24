@@ -1,0 +1,110 @@
+label {
+
+
+}
+
+#labelid {
+    display: inline-block;
+    width: 200px;
+
+}
+
+h2 {
+    background-color: #a2cbbc;
+    margin: 0px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#bb {
+    display: inline-block;
+    position: absolute;
+    left: 47%;
+    transform: translateX(-50%);
+    background-color: #7aa897;
+    color: white;
+
+}
+
+#bc {
+    display: inline-block;
+    position: absolute;
+    left: 53%;
+    transform: translateX(-50%);
+    background-color: #7aa897;
+    color: white;
+
+
+}
+
+
+#toptext {
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+#buttons {
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 40px;
+    background-color: #e3e3e3;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+select {
+    width: 165px;
+}
+
+#sp {
+    color: #ff0000;
+}
+
+
+#fname {
+    display: inline-block;
+}
+
+.add {
+    vertical-align: top;
+}
+
+
+div {
+    padding-bottom: 10px;
+}
+
+input {
+    alignment: right;
+}
+
+span {
+    display: inline-block;
+    align-self: baseline;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "header header"
+    "main main2"
+    "footer footer";
+}
+
+.top {
+    grid-area: header;
+}
+
+.left {
+    grid-area: main;
+}
+
+.right {
+    grid-area: main2;
+}
+
+.bottom {
+    grid-area: footer;
+}
